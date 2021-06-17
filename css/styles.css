@@ -108,3 +108,44 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
+.dog-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.header-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 33px;
+}
+
+.header-link{
+  margin-left: 55px;
+}
+
+.dog-link{
+  text-decoration: none;
+  color: var(--main-black-color);
+  transition: color 0.3s ease;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.dog-link:hover{
+color: var(--main-orange-color);
+}
+
+.dog-button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
