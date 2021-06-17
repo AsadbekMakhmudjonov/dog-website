@@ -310,3 +310,115 @@ img {
 
 .special-product__link:hover{
   color: rgba(226, 122, 58, 0.616);
+}
+
+/* POPULAR-PRODUCTS */
+.popular-products {
+  margin-bottom: 84px;
+}
+.popular-products__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular-products__heading {
+  margin: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32.25px;
+  line-height: 48px;
+  color: var(--main-black-color);
+}
+.popular-products__info {
+  margin: 0;
+  width: 505px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-black-color);
+  opacity: .6;
+  margin-bottom: 25px;
+}
+.popular-products__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.popular-products__item {
+  width: 360px;
+  margin-bottom: 66px;
+  text-align: center;
+}
+.item-big{
+  width: 555px;
+}
+.item-big ~ .item-big{
+  margin-left: 30px;
+}
+.image-box{
+  background-color: var(--main-primary-color);
+  border-radius: 20px;
+  padding: 71px 40px;
+  text-align: center;
+}
+.img-three{
+  padding: 58px 40px;
+}
+.img-yellow{
+  padding:8px 50px;
+}
+.img-black{
+  padding: 50px 50px;
+}
+.img-pink{
+  padding: 55px 50px;
+}
+.item-mini:not(:last-child){
+  margin-right: 30px;
+}
+.popular-products__img {
+  display: inline-block;
+}
+.popular-products__title {
+  margin: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  color: var(--main-black-color);
+  margin-top: 25px;
+  margin-bottom: 9px;
+}
+.popular-products__link {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--main-orange-color);
+  border-bottom: 2px solid transparent;
+  transition: border .3s ease;
+}
+.popular-products__link:hover{
+  border-bottom: 2px solid var(--main-orange-color);
+}
+.btn-popular {
+  border-radius: 4px;
+}
