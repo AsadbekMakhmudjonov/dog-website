@@ -310,3 +310,101 @@ img {
 
 .special-product__link:hover{
   color: rgba(226, 122, 58, 0.616);
+}
+
+/* SUBSCRIBTION */
+.subscription {
+  padding-top: 50px;
+  padding-bottom: 65px;
+  background-color: #fff;
+}
+
+.subscription__container {}
+
+.subscription__heading {
+  margin: 0 auto 34px;
+  width: 450px;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 32.25px;
+  line-height: 45px;
+  color: #170C04;
+
+}
+
+.subscription__list {
+  margin: 0;
+  padding: 0;
+  margin-left: -30px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.subscription__item {
+  width: 360px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.subscribe::before {
+  content: '';
+  margin-bottom: 50px;
+  display: block;
+  width: 307px;
+  height: 264px;
+  background-repeat: no-repeat;
+}
+
+.first-dog::before{
+  background-image: url("../img/first-dog.png");
+}
+
+.second-dog::before {
+  background-image: url("../img/second-dog.png");
+}
+
+.third-dog::before {
+  background-image: url("../img/third-dog.png");
+}
+
+
+
+
+.subscribe__heading {
+  margin-top: 0;
+  margin-bottom: 22px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--main-black-color);
+
+}
+
+.subscribe__info {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(23, 12, 4, 0.6);
+}
+
+.subscribe__link {
+  text-decoration: none;
+  color: var(--main-orange-color);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E27B3A;
+  transition: color 0.3s ease;
+}
+
+
+.subscribe__link:hover{
+  color: rgba(226, 122, 58, 0.6);
+}
