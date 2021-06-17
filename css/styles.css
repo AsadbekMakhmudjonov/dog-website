@@ -430,13 +430,21 @@ img {
 .dog-care__section{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  position: relative;
 }
 
 
 .dog-care__img{
-  width: 746px;
-  height: 640px;
+  /* position: absolute; */
+  width: auto;
+  height: auto;
+
+}
+
+.dog-care__item{
+  display: flex;
+  align-items: center;
 }
 
 .dog-care__span{
@@ -564,5 +572,24 @@ img {
   color: rgba(226, 122, 58, 0.6);
 }
 
+.subscribtion__link{
+  display: inline-block;
+  border-radius: 24px;
+  text-decoration: none;
+  padding: 12px 30px;
+  background-color: var(--main-orange-color);
+  color: var(--main-white-color);
+  border: 2px solid var(--main-orange-color);
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
 
+.subscribtion__link:hover{
+  background-color: var(--main-white-color);
+  color: var(--main-orange-color);
+}
 
+.subscribtion__link-wrapper{
+  margin-top: 46px;
+  text-align: center;
+
+}
