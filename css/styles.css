@@ -109,6 +109,94 @@ img {
   margin-right: auto;
 }
 
+.dog-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.header-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 33px;
+}
+
+.header-link{
+  margin-left: 55px;
+}
+
+.dog-link{
+  text-decoration: none;
+  color: var(--main-black-color);
+  transition: color 0.3s ease;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.dog-link:hover{
+color: var(--main-orange-color);
+}
+
+.dog-button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+
+/* HERO */
+
+.hero{
+  padding-top: 117px;
+  padding-bottom: 267px;
+  background-image: url("../img/Pug-puppy.png");
+  background-repeat: no-repeat;
+  background-size: 916px 611px;
+  background-position: calc(50% + 200px) -15px;
+}
+.hero-heading{
+  margin: 0;
+  width: 613px;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 120px;
+  color: var(--main-black-color);
+  margin-bottom: 48px;
+}
+.button{
+  text-decoration: none;
+  border-radius: 24px;
+  background-color: var(--main-orange-color);
+  color: var(--main-white-color);
+  text-transform: capitalize;
+  padding: 12px 30px;
+  transition: color 0.3s ease,
+  background-color 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.button:hover{
+  color: var(--main-orange-color);
+  background-color: var(--main-primary-color);
+}
+
+.btn-see{
+  color: var(--main-orange-color);
+  background-color: var(--main-white-color);
+  border: 1px solid var(--main-primary-color);
+  margin-left: 20px;
+}
+.btn-see:hover{
+  color: var(--main-white-color);
+  background-color: var(--main-orange-color);
+
+}
+
+
 
 /* ------------  BEST PRODUCTS ---------------- */
 
@@ -210,5 +298,3 @@ img {
 
 .special-product__link:hover{
   color: rgba(226, 122, 58, 0.616);
-}
-
