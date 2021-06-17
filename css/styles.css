@@ -13,7 +13,7 @@
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
-    url("../fonts/Roboto-Regular.woff") format("woff");
+  url("../fonts/Roboto-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -22,7 +22,7 @@
 @font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
-    url("../fonts/Poppins-Bold.woff") format("woff");
+  url("../fonts/Poppins-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -31,7 +31,7 @@
 @font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
-    url("../fonts/Poppins-Medium.woff") format("woff");
+  url("../fonts/Poppins-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -40,7 +40,7 @@
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
-    url("../fonts/Roboto-Medium.woff") format("woff");
+  url("../fonts/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -49,7 +49,7 @@
 @font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
-    url("../fonts/Poppins-Regular.woff") format("woff");
+  url("../fonts/Poppins-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -107,4 +107,52 @@ img {
   padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+/* HERO */
+
+.hero{
+  padding-top: 117px;
+  padding-bottom: 267px;
+  background-image: url("../img/Pug-puppy.png");
+  background-repeat: no-repeat;
+  background-size: 916px 611px;
+  background-position: calc(50% + 200px) -15px;
+}
+.hero-heading{
+  margin: 0;
+  width: 613px;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 120px;
+  color: var(--main-black-color);
+  margin-bottom: 48px;
+}
+.button{
+  text-decoration: none;
+  border-radius: 24px;
+  background-color: var(--main-orange-color);
+  color: var(--main-white-color);
+  text-transform: capitalize;
+  padding: 12px 30px;
+  transition: color 0.3s ease,
+  background-color 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.button:hover{
+  color: var(--main-orange-color);
+  background-color: var(--main-primary-color);
+}
+
+.btn-see{
+  color: var(--main-orange-color);
+  background-color: var(--main-white-color);
+  border: 1px solid var(--main-primary-color);
+  margin-left: 20px;
+}
+.btn-see:hover{
+  color: var(--main-white-color);
+  background-color: var(--main-orange-color);
 }
